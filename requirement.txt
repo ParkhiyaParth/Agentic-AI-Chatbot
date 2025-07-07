@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+ipykernel
+dotenv
+langchain-openai
+langchain-groq
+arxiv
+wikipedia
+streamlit

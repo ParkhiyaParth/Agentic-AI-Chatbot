@@ -7,18 +7,18 @@ class Config:
         self.config.read(self.config_file_path)
     
     def get_llm_options(self):
-        return self.config["DEFAULT"].get("LLM OPTIONS").split(", ")
+        return self.config["DEFAULT"].get("LLM_OPTIONS").split(", ")
     
     def get_usecase_options(self):
-        return self.config["DEFAULT"].get("USECASE OPTIONS").split(", ")
+        return self.config["DEFAULT"].get("USECASE_OPTIONS").split(", ")
     
     def get_groq_model_options(self):
-        return self.config["DEFAULT"].get("GROQ MODEL OPTIONS").split(", ")
+        return self.config["DEFAULT"].get("GROQ_MODEL_OPTIONS").split(", ")
     
     def get_page_title(self):
-        return self.config["DEFAULT"].get("PAGE TITLE")
+        return self.config["DEFAULT"].get("PAGE_TITLE")
     
     def get_page_description(self):
-        return self.config["DEFAULT"].get("PAGE DESCRIPTION")
+        return self.config["DEFAULT"].get("PAGE_DESCRIPTION")
     
         

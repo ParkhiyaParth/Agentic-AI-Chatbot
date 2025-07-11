@@ -9,3 +9,4 @@ langchain-groq
 arxiv
 wikipedia
 streamlit
+langchain-tavily
